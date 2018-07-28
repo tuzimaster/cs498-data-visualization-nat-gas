@@ -9,12 +9,37 @@
             <div class="card-text">
                 <p>This dashboard is designed to illustrate a relationship between the price of natural gas in Colorado, and production of natural gas in the Niobrara Basin.  The Niobrara basin extends over much of northeastern Colorado and southwestern Nebraska.  The close geographic proximity of the Niobrara basin to the Denver-Boulder metropolitan region should lead to a correlation between the price of natural gas in Colorado and production in the Niobrara basin.</p>
                 <p>The first chart presented shows the average price of natural gas for commercial and residential customers displayed over time.  This chart covers a time period between the late 1980s and 2017.</p>
+                <div id="about"  class="card-button-block">
+                    <button id="btnViewAbout" type="button" class="btn btn-primary right">About the Visualization</button>
+                </div>
+                <div id="start" class="card-button-block graph-hidden">
+                    <button id="btnGoToAboutBack" type="button" class="btn btn-primary">Go Back</button>
+                    <button id="btnStart" type="button" class="btn btn-primary right">View Residential and Commerical Prices</button>
+                </div>
+                <div id="rescomm" class="card-button-block graph-hidden">
+                    <button id="btnGoToStart" type="button" class="btn btn-primary">Go Back</button>
+                    <button id="btnGoToNiobara" type="button" class="btn btn-primary right">View Niobara Basin Production</button>
+                </div>
+                <div id="nioblock" class="card-button-block graph-hidden">
+                    <button id="btnGoToResCom" type="button" class="btn btn-primary">Go Back</button>
+                </div>
             </div>
-            <div class="graph card-block">
+            <div id="aboutthevisualization" class="graph card-block graph-hidden">
+                <h4>About the Visualization</h4>
+                <p>The following visualization follows a slide show layout. The individual slides are html divs whose visibility state is controlled through button clicks. Buttons on the right allow the user to advance through the visualizations, with each slide having buttons on the left to go back.</p>
+                <p>There are three main “scenes” being presented to the user.  Each slide is identified by an h4 tag with the title of the slide, followed by any text, descriptions, or interactive controls.  The first, the “About the Visualization” slide is the current slide being presented. This slide describes the visualization at a high level. The second slide presents residential and commercial gas prices over time. This allows user to see the highly variable and cyclic nature of natural gas prices, particularly during the high spikes during winter when demand is high. The last slide presents production of natural gas in the Niobrara basin that resides in the north eastern part of Colorado. The large Denver-Boulder metropolitan area is the closest and densest population area to the Niobrara play. We would assume that production in the Niobrara play to have a fairly large impact on the prices of natural gas in Colorado. Users can examine the data between the two data sets by transitioning between the slides.</p>
+            </div>
+            <div id="residentialCommercialGraphBlock" class="graph card-block graph-hidden">
                 <h4>Residential and Commercial Price of Natural Gas in Colorado Over Time</h4>
+                <div style="width: 100%;">
+                    <div class="text-center">
+                        <input type="checkbox" id="Residential_Price" checked="checked" class="checkbox-inline">Residental Price
+                        <input type="checkbox" id="Commercial_Price" checked="checked" class="checkbox-inline">Commercial Price    
+                    </div>
+                </div>
                 <svg width="100%" height="100%" id="residentialCommercial"></svg>
             </div>
-            <div class="graph card-block">
+            <div id="niobaraProductionGraphBlock" class="graph card-block graph-hidden">
                 <h4>Production of Natural Gas in Mcf in the Niobrara Basin Over Time</h4>
                 <svg width="100%" height="100%" id="niobaraProduction"></svg>
             </div>

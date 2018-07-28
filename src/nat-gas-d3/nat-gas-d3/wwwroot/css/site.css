@@ -54,6 +54,17 @@ body {
         margin-left: -10px;
     }
 
+    .right {
+        display: inline-block;
+        float: right;
+    }
+
+.card-button-block {
+    display: block;
+    width: 100%;
+    height: 50px;
+}
+
 .card-text {
     margin-top: 10px;
 }
@@ -68,10 +79,26 @@ body {
 }
 
 .graph {
-    height: 600px;
+    height: 700px;
 }
 
 .graph svg {
     overflow: visible;
     margin-left: 30px;
+}
+
+.graph-hidden {
+    display: none;
+}
+
+.checkbox-inline-site {
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-top: 0;
+    margin-left: 10px;
 }
