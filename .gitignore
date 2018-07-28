@@ -102,3 +102,5 @@ ENV/
 .mypy_cache/
 
 src/nat-gas-d3/.vs/*
+src/nat-gas-d3/nat-gas-d3/bin/*
+src/nat-gas-d3/nat-gas-d3/obj/*
