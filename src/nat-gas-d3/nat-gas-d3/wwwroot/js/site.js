@@ -85,7 +85,7 @@ function SetUpResidentialAndCommercialPriceGraph() {
 
             var commercialLineGraph = svg.append("path")
                 .attr("d", commercialPriceLine(mappedData))
-                .attr("stroke", "red")
+                .attr("stroke", "blue")
                 .attr("stroke-width", 2)
                 .attr("fill", "none");
 
