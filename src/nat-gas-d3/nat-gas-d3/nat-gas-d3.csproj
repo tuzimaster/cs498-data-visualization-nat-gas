@@ -12,4 +12,13 @@
     <Folder Include="Models\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="wwwroot\data\dpr-data_csv.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\data\Natural_Gas_Prices_in_Colorado.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>

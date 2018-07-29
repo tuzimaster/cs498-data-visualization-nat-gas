@@ -59,6 +59,7 @@ $("#Residential_Price").change(function () {
     }
 
     d3.select("#residentialCommercial").selectAll("path").remove();
+    d3.select("#residentialCommercial").selectAll(".dot").remove();
     SetUpResidentialAndCommercialPriceGraph(residential, commercial);
 });
 
@@ -75,6 +76,7 @@ $("#Commercial_Price").change(function () {
     }
 
     d3.select("#residentialCommercial").selectAll("path").remove();
+    d3.select("#residentialCommercial").selectAll(".dot").remove();
     SetUpResidentialAndCommercialPriceGraph(residential, commercial);
 });
 
@@ -157,7 +159,17 @@ function SetUpResidentialAndCommercialPriceGraph(setupResidential, setupCommerci
                     .attr("d", residentialPriceLine(mappedData))
                     .attr("stroke", "blue")
                     .attr("stroke-width", 2)
-                    .attr("fill", "none");    
+                    .attr("fill", "none");
+
+                svg.selectAll(".dot")
+                    .data(mappedData)
+                    .enter().append("circle") // Uses the enter().append() method
+                    .attr("class", "dot") // Assign a class for styling
+                    .attr("cx", function (d) { return x(d.date) })
+                    .attr("cy", function (d) { return y(d.residentialPrice) })
+                    .attr("r", 2)
+                    .attr("stroke", "blue")
+                    .attr("fill", "blue");;
             }
             
             if (setupCommercial === 1) {
@@ -166,6 +178,16 @@ function SetUpResidentialAndCommercialPriceGraph(setupResidential, setupCommerci
                     .attr("stroke", "red")
                     .attr("stroke-width", 2)
                     .attr("fill", "none");
+
+                svg.selectAll(".dot")
+                    .data(mappedData)
+                    .enter().append("circle") // Uses the enter().append() method
+                    .attr("class", "dot") // Assign a class for styling
+                    .attr("cx", function (d) { return x(d.date) })
+                    .attr("cy", function (d) { return y(d.commercialPrice) })
+                    .attr("r", 2)
+                    .attr("stroke", "red")
+                    .attr("fill", "red"); ;
             }
 
             console.log("add the x axis");
@@ -209,6 +231,8 @@ function SetUpResidentialAndCommercialPriceGraph(setupResidential, setupCommerci
                     (height + margin.top + 20) + ")")
                 .style("text-anchor", "middle")
                 .text("Date");
+
+
         });
 }
 
@@ -257,7 +281,7 @@ function SetupProductionOfNiobaraBase() {
             console.log("get the scales");
             // Scale the range of the data
             x.domain(d3.extent(mappedData, function (d) { return d.date; }));
-            y.domain([0, d3.max(mappedData, function (d) { return d.Total_Production; })]);
+            y.domain([2800000, d3.max(mappedData, function (d) { return d.Total_Production; })]);
 
             console.log("add the line");
             // Add the valueline path.
@@ -312,6 +336,16 @@ function SetupProductionOfNiobaraBase() {
                     (height + margin.top + 20) + ")")
                 .style("text-anchor", "middle")
                 .text("Date");
+
+            svg.selectAll(".dot")
+                .data(mappedData)
+                .enter().append("circle") // Uses the enter().append() method
+                .attr("class", "dot") // Assign a class for styling
+                .attr("cx", function (d) { return x(d.date) })
+                .attr("cy", function (d) { return y(d.Total_Production) })
+                .attr("r", 2)
+                .attr("stroke", "blue")
+                .attr("fill", "blue");;
         });
 }
 

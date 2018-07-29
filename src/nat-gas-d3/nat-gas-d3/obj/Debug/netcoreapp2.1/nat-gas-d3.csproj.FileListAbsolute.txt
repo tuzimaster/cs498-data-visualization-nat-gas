@@ -23,3 +23,5 @@ D:\Dev\nat-gas-d3\src\nat-gas-d3\nat-gas-d3\obj\Debug\netcoreapp2.1\nat-gas-d3.d
 D:\Dev\nat-gas-d3\src\nat-gas-d3\nat-gas-d3\obj\Debug\netcoreapp2.1\nat-gas-d3.pdb
 D:\Dev\nat-gas-d3\src\nat-gas-d3\nat-gas-d3\obj\Debug\netcoreapp2.1\nat-gas-d3.csproj.CopyComplete
 D:\Dev\nat-gas-d3\src\nat-gas-d3\nat-gas-d3\obj\Debug\netcoreapp2.1\nat-gas-d3.csprojResolveAssemblyReference.cache
+D:\Dev\nat-gas-d3\src\nat-gas-d3\nat-gas-d3\bin\Debug\netcoreapp2.1\wwwroot\data\dpr-data_csv.csv
+D:\Dev\nat-gas-d3\src\nat-gas-d3\nat-gas-d3\bin\Debug\netcoreapp2.1\wwwroot\data\Natural_Gas_Prices_in_Colorado.csv
