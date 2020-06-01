@@ -1,0 +1,815 @@
+{
+  "name": "American New Cuisine",
+  "children": [
+    {
+      "name": "Topic: 0",
+      "colname": "level2",
+      "children": [
+        {
+          "name": "dogs",
+          "colname": "level3",
+          "weight": 0.008359702
+        },
+        {
+          "name": "counter",
+          "colname": "level3",
+          "weight": 0.008215963
+        },
+        {
+          "name": "chairs",
+          "colname": "level3",
+          "weight": 0.0064136554
+        },
+        {
+          "name": "ambience",
+          "colname": "level3",
+          "weight": 0.006329063
+        },
+        {
+          "name": "pay",
+          "colname": "level3",
+          "weight": 0.006103992
+        },
+        {
+          "name": "gladly",
+          "colname": "level3",
+          "weight": 0.0056625158
+        },
+        {
+          "name": "brooklyn",
+          "colname": "level3",
+          "weight": 0.0056180316
+        },
+        {
+          "name": "protein",
+          "colname": "level3",
+          "weight": 0.0054355715
+        },
+        {
+          "name": "worked",
+          "colname": "level3",
+          "weight": 0.0052648173
+        },
+        {
+          "name": "interior",
+          "colname": "level3",
+          "weight": 0.0050689136
+        },
+        {
+          "name": "returning",
+          "colname": "level3",
+          "weight": 0.0046659685
+        },
+        {
+          "name": "pm",
+          "colname": "level3",
+          "weight": 0.0046492284
+        },
+        {
+          "name": "music",
+          "colname": "level3",
+          "weight": 0.004618734
+        },
+        {
+          "name": "run",
+          "colname": "level3",
+          "weight": 0.004527128
+        },
+        {
+          "name": "tickets",
+          "colname": "level3",
+          "weight": 0.0043626954
+        }
+      ]
+    },
+    {
+      "name": "Topic: 1",
+      "colname": "level2",
+      "children": [
+        {
+          "name": "dessert",
+          "colname": "level3",
+          "weight": 0.016492574
+        },
+        {
+          "name": "ice",
+          "colname": "level3",
+          "weight": 0.015319598
+        },
+        {
+          "name": "cream",
+          "colname": "level3",
+          "weight": 0.014766578
+        },
+        {
+          "name": "pudding",
+          "colname": "level3",
+          "weight": 0.013771178
+        },
+        {
+          "name": "turkey",
+          "colname": "level3",
+          "weight": 0.013232267
+        },
+        {
+          "name": "bbq",
+          "colname": "level3",
+          "weight": 0.012844985
+        },
+        {
+          "name": "chocolate",
+          "colname": "level3",
+          "weight": 0.012629097
+        },
+        {
+          "name": "acts",
+          "colname": "level3",
+          "weight": 0.0094825085
+        },
+        {
+          "name": "cake",
+          "colname": "level3",
+          "weight": 0.008833922
+        },
+        {
+          "name": "chips",
+          "colname": "level3",
+          "weight": 0.008458244
+        },
+        {
+          "name": "pasta",
+          "colname": "level3",
+          "weight": 0.0076150736
+        },
+        {
+          "name": "tomato",
+          "colname": "level3",
+          "weight": 0.0075874
+        },
+        {
+          "name": "pie",
+          "colname": "level3",
+          "weight": 0.007517848
+        },
+        {
+          "name": "bread",
+          "colname": "level3",
+          "weight": 0.006944908
+        },
+        {
+          "name": "salsa",
+          "colname": "level3",
+          "weight": 0.0064172302
+        }
+      ]
+    },
+    {
+      "name": "Topic: 2",
+      "colname": "level2",
+      "children": [
+        {
+          "name": "music",
+          "colname": "level3",
+          "weight": 0.012377028
+        },
+        {
+          "name": "kids",
+          "colname": "level3",
+          "weight": 0.009749233
+        },
+        {
+          "name": "opening",
+          "colname": "level3",
+          "weight": 0.00910598
+        },
+        {
+          "name": "outdoor",
+          "colname": "level3",
+          "weight": 0.007941107
+        },
+        {
+          "name": "venue",
+          "colname": "level3",
+          "weight": 0.0075499336
+        },
+        {
+          "name": "glad",
+          "colname": "level3",
+          "weight": 0.007401398
+        },
+        {
+          "name": "loud",
+          "colname": "level3",
+          "weight": 0.0071876235
+        },
+        {
+          "name": "whiskey",
+          "colname": "level3",
+          "weight": 0.006884912
+        },
+        {
+          "name": "bowling",
+          "colname": "level3",
+          "weight": 0.0064969943
+        },
+        {
+          "name": "seating",
+          "colname": "level3",
+          "weight": 0.0058610216
+        },
+        {
+          "name": "crowd",
+          "colname": "level3",
+          "weight": 0.005744746
+        },
+        {
+          "name": "greeted",
+          "colname": "level3",
+          "weight": 0.005404569
+        },
+        {
+          "name": "juicy",
+          "colname": "level3",
+          "weight": 0.0053779795
+        },
+        {
+          "name": "decor",
+          "colname": "level3",
+          "weight": 0.005218479
+        },
+        {
+          "name": "honestly",
+          "colname": "level3",
+          "weight": 0.0051166923
+        }
+      ]
+    },
+    {
+      "name": "Topic: 3",
+      "colname": "level2",
+      "children": [
+        {
+          "name": "apple",
+          "colname": "level3",
+          "weight": 0.015176429
+        },
+        {
+          "name": "smoked",
+          "colname": "level3",
+          "weight": 0.013669034
+        },
+        {
+          "name": "rib",
+          "colname": "level3",
+          "weight": 0.011223228
+        },
+        {
+          "name": "management",
+          "colname": "level3",
+          "weight": 0.00936383
+        },
+        {
+          "name": "truck",
+          "colname": "level3",
+          "weight": 0.008917145
+        },
+        {
+          "name": "mayo",
+          "colname": "level3",
+          "weight": 0.008144915
+        },
+        {
+          "name": "arugula",
+          "colname": "level3",
+          "weight": 0.008036601
+        },
+        {
+          "name": "http",
+          "colname": "level3",
+          "weight": 0.007841659
+        },
+        {
+          "name": "entertainment",
+          "colname": "level3",
+          "weight": 0.0076295
+        },
+        {
+          "name": "black",
+          "colname": "level3",
+          "weight": 0.0072781183
+        },
+        {
+          "name": "com",
+          "colname": "level3",
+          "weight": 0.006915538
+        },
+        {
+          "name": "tomatoes",
+          "colname": "level3",
+          "weight": 0.0066560563
+        },
+        {
+          "name": "philly",
+          "colname": "level3",
+          "weight": 0.006558467
+        },
+        {
+          "name": "pictures",
+          "colname": "level3",
+          "weight": 0.0063339993
+        },
+        {
+          "name": "jalapeno",
+          "colname": "level3",
+          "weight": 0.0061623002
+        }
+      ]
+    },
+    {
+      "name": "Topic: 4",
+      "colname": "level2",
+      "children": [
+        {
+          "name": "food",
+          "colname": "level3",
+          "weight": 0.012151949
+        },
+        {
+          "name": "place",
+          "colname": "level3",
+          "weight": 0.011416603
+        },
+        {
+          "name": "great",
+          "colname": "level3",
+          "weight": 0.00975597
+        },
+        {
+          "name": "service",
+          "colname": "level3",
+          "weight": 0.00860043
+        },
+        {
+          "name": "good",
+          "colname": "level3",
+          "weight": 0.00802542
+        },
+        {
+          "name": "like",
+          "colname": "level3",
+          "weight": 0.006689162
+        },
+        {
+          "name": "time",
+          "colname": "level3",
+          "weight": 0.0063514872
+        },
+        {
+          "name": "just",
+          "colname": "level3",
+          "weight": 0.0063287956
+        },
+        {
+          "name": "menu",
+          "colname": "level3",
+          "weight": 0.0061207097
+        },
+        {
+          "name": "really",
+          "colname": "level3",
+          "weight": 0.0056777154
+        },
+        {
+          "name": "restaurant",
+          "colname": "level3",
+          "weight": 0.005589619
+        },
+        {
+          "name": "bar",
+          "colname": "level3",
+          "weight": 0.0054732515
+        },
+        {
+          "name": "try",
+          "colname": "level3",
+          "weight": 0.0048582205
+        },
+        {
+          "name": "drinks",
+          "colname": "level3",
+          "weight": 0.004661539
+        },
+        {
+          "name": "nice",
+          "colname": "level3",
+          "weight": 0.0044349586
+        }
+      ]
+    },
+    {
+      "name": "Topic: 5",
+      "colname": "level2",
+      "children": [
+        {
+          "name": "truffle",
+          "colname": "level3",
+          "weight": 0.015143995
+        },
+        {
+          "name": "egg",
+          "colname": "level3",
+          "weight": 0.012195833
+        },
+        {
+          "name": "dish",
+          "colname": "level3",
+          "weight": 0.009597139
+        },
+        {
+          "name": "rose",
+          "colname": "level3",
+          "weight": 0.008495727
+        },
+        {
+          "name": "meatballs",
+          "colname": "level3",
+          "weight": 0.008383181
+        },
+        {
+          "name": "choy",
+          "colname": "level3",
+          "weight": 0.008125976
+        },
+        {
+          "name": "crunchy",
+          "colname": "level3",
+          "weight": 0.008070523
+        },
+        {
+          "name": "toast",
+          "colname": "level3",
+          "weight": 0.007900519
+        },
+        {
+          "name": "patty",
+          "colname": "level3",
+          "weight": 0.0076292967
+        },
+        {
+          "name": "sprouts",
+          "colname": "level3",
+          "weight": 0.007558518
+        },
+        {
+          "name": "pieces",
+          "colname": "level3",
+          "weight": 0.007097564
+        },
+        {
+          "name": "waffles",
+          "colname": "level3",
+          "weight": 0.0065921163
+        },
+        {
+          "name": "tomato",
+          "colname": "level3",
+          "weight": 0.006432438
+        },
+        {
+          "name": "signature",
+          "colname": "level3",
+          "weight": 0.006159322
+        },
+        {
+          "name": "rice",
+          "colname": "level3",
+          "weight": 0.005867139
+        }
+      ]
+    },
+    {
+      "name": "Topic: 6",
+      "colname": "level2",
+      "children": [
+        {
+          "name": "pretzel",
+          "colname": "level3",
+          "weight": 0.01145657
+        },
+        {
+          "name": "yard",
+          "colname": "level3",
+          "weight": 0.010637708
+        },
+        {
+          "name": "cons",
+          "colname": "level3",
+          "weight": 0.010535524
+        },
+        {
+          "name": "craft",
+          "colname": "level3",
+          "weight": 0.0091372775
+        },
+        {
+          "name": "lie",
+          "colname": "level3",
+          "weight": 0.008900379
+        },
+        {
+          "name": "meatball",
+          "colname": "level3",
+          "weight": 0.008826393
+        },
+        {
+          "name": "hotel",
+          "colname": "level3",
+          "weight": 0.00835005
+        },
+        {
+          "name": "bloody",
+          "colname": "level3",
+          "weight": 0.008019807
+        },
+        {
+          "name": "mary",
+          "colname": "level3",
+          "weight": 0.0076701646
+        },
+        {
+          "name": "belly",
+          "colname": "level3",
+          "weight": 0.007631517
+        },
+        {
+          "name": "pink",
+          "colname": "level3",
+          "weight": 0.007128721
+        },
+        {
+          "name": "dancing",
+          "colname": "level3",
+          "weight": 0.006714888
+        },
+        {
+          "name": "potential",
+          "colname": "level3",
+          "weight": 0.0066939243
+        },
+        {
+          "name": "owners",
+          "colname": "level3",
+          "weight": 0.006482822
+        },
+        {
+          "name": "aioli",
+          "colname": "level3",
+          "weight": 0.0061844154
+        }
+      ]
+    },
+    {
+      "name": "Topic: 7",
+      "colname": "level2",
+      "children": [
+        {
+          "name": "cheese",
+          "colname": "level3",
+          "weight": 0.012052191
+        },
+        {
+          "name": "chicken",
+          "colname": "level3",
+          "weight": 0.011954759
+        },
+        {
+          "name": "good",
+          "colname": "level3",
+          "weight": 0.01165733
+        },
+        {
+          "name": "salad",
+          "colname": "level3",
+          "weight": 0.011566939
+        },
+        {
+          "name": "ordered",
+          "colname": "level3",
+          "weight": 0.010327485
+        },
+        {
+          "name": "fries",
+          "colname": "level3",
+          "weight": 0.0088317
+        },
+        {
+          "name": "burger",
+          "colname": "level3",
+          "weight": 0.008436851
+        },
+        {
+          "name": "sauce",
+          "colname": "level3",
+          "weight": 0.007879
+        },
+        {
+          "name": "sandwich",
+          "colname": "level3",
+          "weight": 0.007294942
+        },
+        {
+          "name": "delicious",
+          "colname": "level3",
+          "weight": 0.007246697
+        },
+        {
+          "name": "fried",
+          "colname": "level3",
+          "weight": 0.006457123
+        },
+        {
+          "name": "sweet",
+          "colname": "level3",
+          "weight": 0.0063358336
+        },
+        {
+          "name": "bacon",
+          "colname": "level3",
+          "weight": 0.006023699
+        },
+        {
+          "name": "flavor",
+          "colname": "level3",
+          "weight": 0.0057898033
+        },
+        {
+          "name": "fresh",
+          "colname": "level3",
+          "weight": 0.0056024306
+        }
+      ]
+    },
+    {
+      "name": "Topic: 8",
+      "colname": "level2",
+      "children": [
+        {
+          "name": "pita",
+          "colname": "level3",
+          "weight": 0.017605327
+        },
+        {
+          "name": "culinary",
+          "colname": "level3",
+          "weight": 0.01704207
+        },
+        {
+          "name": "dine",
+          "colname": "level3",
+          "weight": 0.015110719
+        },
+        {
+          "name": "hummus",
+          "colname": "level3",
+          "weight": 0.013712099
+        },
+        {
+          "name": "beets",
+          "colname": "level3",
+          "weight": 0.012639702
+        },
+        {
+          "name": "gem",
+          "colname": "level3",
+          "weight": 0.011562534
+        },
+        {
+          "name": "jar",
+          "colname": "level3",
+          "weight": 0.01142817
+        },
+        {
+          "name": "mule",
+          "colname": "level3",
+          "weight": 0.01107638
+        },
+        {
+          "name": "dip",
+          "colname": "level3",
+          "weight": 0.010715775
+        },
+        {
+          "name": "sampled",
+          "colname": "level3",
+          "weight": 0.010617968
+        },
+        {
+          "name": "cookies",
+          "colname": "level3",
+          "weight": 0.010436545
+        },
+        {
+          "name": "jungle",
+          "colname": "level3",
+          "weight": 0.009494916
+        },
+        {
+          "name": "double",
+          "colname": "level3",
+          "weight": 0.009417476
+        },
+        {
+          "name": "wrap",
+          "colname": "level3",
+          "weight": 0.009357215
+        },
+        {
+          "name": "pot",
+          "colname": "level3",
+          "weight": 0.00837937
+        }
+      ]
+    },
+    {
+      "name": "Topic: 9",
+      "colname": "level2",
+      "children": [
+        {
+          "name": "food",
+          "colname": "level3",
+          "weight": 0.033630233
+        },
+        {
+          "name": "tuna",
+          "colname": "level3",
+          "weight": 0.01716378
+        },
+        {
+          "name": "stars",
+          "colname": "level3",
+          "weight": 0.015658144
+        },
+        {
+          "name": "ahi",
+          "colname": "level3",
+          "weight": 0.012626248
+        },
+        {
+          "name": "airport",
+          "colname": "level3",
+          "weight": 0.0114059895
+        },
+        {
+          "name": "lemonade",
+          "colname": "level3",
+          "weight": 0.010871714
+        },
+        {
+          "name": "ready",
+          "colname": "level3",
+          "weight": 0.0100952955
+        },
+        {
+          "name": "slow",
+          "colname": "level3",
+          "weight": 0.00952832
+        },
+        {
+          "name": "99",
+          "colname": "level3",
+          "weight": 0.009333521
+        },
+        {
+          "name": "drinks",
+          "colname": "level3",
+          "weight": 0.008632557
+        },
+        {
+          "name": "plan",
+          "colname": "level3",
+          "weight": 0.008623413
+        },
+        {
+          "name": "station",
+          "colname": "level3",
+          "weight": 0.008222024
+        },
+        {
+          "name": "bright",
+          "colname": "level3",
+          "weight": 0.0079225125
+        },
+        {
+          "name": "doors",
+          "colname": "level3",
+          "weight": 0.0074281935
+        },
+        {
+          "name": "blown",
+          "colname": "level3",
+          "weight": 0.00732979
+        }
+      ]
+    }
+  ]
+}
