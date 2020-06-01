@@ -6,29 +6,29 @@
       "colname": "level2",
       "children": [
         {
-          "name": "chicken",
+          "name": "food",
           "colname": "level3",
-          "weight": 0.010195201
+          "weight": 0.011449358
+        },
+        {
+          "name": "place",
+          "colname": "level3",
+          "weight": 0.010217687
+        },
+        {
+          "name": "service",
+          "colname": "level3",
+          "weight": 0.008919429
         },
         {
           "name": "good",
           "colname": "level3",
-          "weight": 0.009963589
+          "weight": 0.006527791
         },
         {
-          "name": "salad",
+          "name": "great",
           "colname": "level3",
-          "weight": 0.00967631
-        },
-        {
-          "name": "cheese",
-          "colname": "level3",
-          "weight": 0.009328436
-        },
-        {
-          "name": "ordered",
-          "colname": "level3",
-          "weight": 0.008818351
+          "weight": 0.0062326523
         }
       ]
     },
@@ -37,29 +37,29 @@
       "colname": "level2",
       "children": [
         {
-          "name": "dessert",
+          "name": "sandwich",
           "colname": "level3",
-          "weight": 0.0126697365
+          "weight": 0.009213682
         },
         {
-          "name": "ice",
+          "name": "sub",
           "colname": "level3",
-          "weight": 0.009165951
+          "weight": 0.0059214924
         },
         {
-          "name": "chocolate",
+          "name": "subs",
           "colname": "level3",
-          "weight": 0.009071054
+          "weight": 0.0050413255
         },
         {
-          "name": "cream",
+          "name": "good",
           "colname": "level3",
-          "weight": 0.009039921
+          "weight": 0.004835851
         },
         {
-          "name": "duck",
+          "name": "bread",
           "colname": "level3",
-          "weight": 0.008392561
+          "weight": 0.004563372
         }
       ]
     },
@@ -68,29 +68,29 @@
       "colname": "level2",
       "children": [
         {
-          "name": "food",
+          "name": "fries",
           "colname": "level3",
-          "weight": 0.015004737
+          "weight": 0.019077837
         },
         {
-          "name": "place",
+          "name": "burger",
           "colname": "level3",
-          "weight": 0.012221649
-        },
-        {
-          "name": "great",
-          "colname": "level3",
-          "weight": 0.011351074
+          "weight": 0.018186804
         },
         {
           "name": "good",
           "colname": "level3",
-          "weight": 0.008178484
+          "weight": 0.010490521
         },
         {
-          "name": "menu",
+          "name": "burgers",
           "colname": "level3",
-          "weight": 0.0067010815
+          "weight": 0.00968343
+        },
+        {
+          "name": "like",
+          "colname": "level3",
+          "weight": 0.0068399883
         }
       ]
     },
@@ -99,29 +99,29 @@
       "colname": "level2",
       "children": [
         {
-          "name": "service",
+          "name": "smashburger",
           "colname": "level3",
-          "weight": 0.007585309
+          "weight": 0.008751449
         },
         {
-          "name": "time",
+          "name": "www",
           "colname": "level3",
-          "weight": 0.005997758
+          "weight": 0.00500781
         },
         {
-          "name": "place",
+          "name": "select",
           "colname": "level3",
-          "weight": 0.005528068
+          "weight": 0.0049117305
         },
         {
-          "name": "table",
+          "name": "popular",
           "colname": "level3",
-          "weight": 0.0052365465
+          "weight": 0.0048561874
         },
         {
-          "name": "food",
+          "name": "http",
           "colname": "level3",
-          "weight": 0.005231383
+          "weight": 0.0048317686
         }
       ]
     },
@@ -130,29 +130,29 @@
       "colname": "level2",
       "children": [
         {
-          "name": "acts",
+          "name": "chicken",
           "colname": "level3",
-          "weight": 0.007728947
+          "weight": 0.017345732
         },
         {
-          "name": "stage",
+          "name": "sauce",
           "colname": "level3",
-          "weight": 0.007460156
+          "weight": 0.00911845
         },
         {
-          "name": "pros",
+          "name": "fingers",
           "colname": "level3",
-          "weight": 0.006778843
+          "weight": 0.007882102
         },
         {
-          "name": "juice",
+          "name": "strips",
           "colname": "level3",
-          "weight": 0.005991231
+          "weight": 0.0070921485
         },
         {
-          "name": "bloody",
+          "name": "toast",
           "colname": "level3",
-          "weight": 0.0059427996
+          "weight": 0.006654868
         }
       ]
     }
